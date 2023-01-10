@@ -16,10 +16,22 @@ body {
 .profile {
   width: 1000px;
   display: flex;
-  margin: 50px auto;
+  margin: 50px;
+  text-align: center;
+  margin-top: 15px;
+}
+.profile :left {
+  margin-left: 50px;
 }
 .profile img {
   width: 200px;
   border-radius: 50%;
-  padding: 25px;
+  padding: 10px;
+  margin-left: 100px;
+}
+.profile :right {
+  margin-right: 50px;
+}
+.body {
+  text-align: center;
 }
